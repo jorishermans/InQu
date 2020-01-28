@@ -1,0 +1,19 @@
+{
+  "name": "inqu",
+  "version": "1.0.0",
+  "description": "this an implementation of a text search engine written in typescript",
+  "main": "build/index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
